@@ -23,3 +23,4 @@ urlpatterns = [
     path('conact',views.contact,name='contact'),
     path('home',views.home,name='home'),
 ]
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
