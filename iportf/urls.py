@@ -20,6 +20,6 @@ from myportf import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('conact',views.contact,name='contact'),
+    path('cotnact',views.contact,name='contact'),
     path('home',views.home,name='home'),
 ]
